@@ -58,6 +58,9 @@ export const ProductList = styled.ul`
           margin-right: 5px;
         }
       }
+      span {
+        padding-left: 20px;
+      }
     }
   }
 `;

@@ -1,8 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
-
   *{
     margin:0;
     padding:0;
@@ -22,10 +20,10 @@ export default createGlobalStyle`
     background: #191920;
     -webkit-font-smoothing: antialiased !important;
   }
-  body, input, button {
+  *, input, button {
     font-size: 14px;
     border:none;
-    font-family: Nunito, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   button {
     cursor: pointer;
